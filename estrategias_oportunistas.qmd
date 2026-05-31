@@ -1,0 +1,17 @@
+# Estratégias Oportunistas
+
+Compreendem as estratégias de 07 a 12.
+
+![](/images/36strategies_2.jpg)
+
+[7 – Criar algo do nada.](estrategia_07.qmd)
+
+[8 – Fuga secreta por Chen Can.](estrategia_08.qmd)
+
+[9 – Observar o fogo do outro lado do rio.](estrategia_09.qmd)
+
+[10 – Uma adaga atrás de um sorriso.](estrategia_10.qmd)
+
+[11 – A ameixeira morre no lugar do pessegueiro.](estrategia_11.qmd)
+
+[12 – Roubando um bode pelo caminho.](estrategia_12.qmd)

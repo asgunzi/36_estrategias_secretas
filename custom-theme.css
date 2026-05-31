@@ -1,0 +1,362 @@
+/* =====================================================
+   As 36 Estratégias Secretas — Custom Theme
+   Aesthetic: Editorial chinesa clássica, refinada
+   ===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@400;700&display=swap');
+
+/* ─── CSS Variables ─────────────────────────────── */
+:root {
+  --ink:          #1a1208;
+  --parchment:    #faf6ef;
+  --red:          #9b1f1f;
+  --gold:         #b8943f;
+  --gold-light:   #e8d49a;
+  --smoke:        #f0ebe1;
+  --border:       #d4c9a8;
+  --text:         #2d2416;
+  --text-muted:   #6b5e45;
+  --sidebar-bg:   #1a1208;
+  --sidebar-text: #e8d49a;
+  --sidebar-link: #c4a96b;
+  --sidebar-active: #9b1f1f;
+
+  --font-display: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-body:    'Lora', Georgia, serif;
+  --font-sans:    'Lora', Georgia, serif;
+
+  --shadow-sm: 0 2px 8px rgba(26,18,8,0.10);
+  --shadow-md: 0 4px 20px rgba(26,18,8,0.15);
+  --shadow-lg: 0 8px 40px rgba(26,18,8,0.20);
+
+  --radius: 2px;
+  --transition: 0.25s ease;
+}
+
+/* ─── Reset & Base ──────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: var(--parchment) !important;
+  color: var(--text) !important;
+  font-family: var(--font-body) !important;
+  font-size: 1.05rem !important;
+  line-height: 1.85 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle texture on the body background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23faf6ef'/%3E%3Crect x='0' y='0' width='1' height='1' fill='%23e8dcc8' opacity='0.3'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ─── Sidebar ───────────────────────────────────── */
+.sidebar, #quarto-sidebar {
+  background: var(--sidebar-bg) !important;
+  border-right: 3px solid var(--red) !important;
+  box-shadow: 4px 0 24px rgba(26,18,8,0.35) !important;
+}
+
+/* Sidebar title */
+.sidebar-title a, .sidebar-title {
+  font-family: var(--font-display) !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: var(--gold) !important;
+  letter-spacing: 0.03em !important;
+  text-decoration: none !important;
+  line-height: 1.3 !important;
+  padding: 1rem 1.25rem !important;
+  display: block !important;
+  border-bottom: 1px solid rgba(184,148,63,0.25) !important;
+}
+
+/* Sidebar links */
+.sidebar-link, .sidebar-item-text {
+  font-family: var(--font-body) !important;
+  font-size: 0.83rem !important;
+  color: var(--sidebar-link) !important;
+  text-decoration: none !important;
+  padding: 0.35rem 1.25rem !important;
+  display: block !important;
+  border-left: 3px solid transparent !important;
+  transition: all var(--transition) !important;
+  line-height: 1.4 !important;
+}
+
+.sidebar-link:hover {
+  color: var(--gold) !important;
+  background: rgba(184,148,63,0.08) !important;
+  border-left-color: var(--gold) !important;
+}
+
+.sidebar-link.active, .sidebar-item-text.sidebar-link.active {
+  color: #fff !important;
+  background: var(--red) !important;
+  border-left-color: var(--gold) !important;
+  font-weight: 600 !important;
+}
+
+/* Sidebar search */
+.sidebar-search input {
+  background: rgba(255,255,255,0.07) !important;
+  border: 1px solid rgba(184,148,63,0.3) !important;
+  color: var(--gold-light) !important;
+  border-radius: var(--radius) !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.82rem !important;
+}
+
+/* ─── Header / Nav ──────────────────────────────── */
+#quarto-header, .headroom {
+  background: var(--ink) !important;
+  border-bottom: 2px solid var(--red) !important;
+  box-shadow: 0 2px 12px rgba(26,18,8,0.4) !important;
+}
+
+.quarto-secondary-nav {
+  background: var(--ink) !important;
+}
+
+.quarto-page-breadcrumbs .breadcrumb-item a,
+.quarto-page-breadcrumbs .breadcrumb-item {
+  color: var(--gold-light) !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.85rem !important;
+}
+
+/* ─── Main Content ──────────────────────────────── */
+main.content {
+  max-width: 720px !important;
+  padding: 3rem 2.5rem !important;
+}
+
+/* ─── Typography ────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display) !important;
+  color: var(--ink) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.25 !important;
+}
+
+h1.title, .quarto-title h1 {
+  font-size: 2.4rem !important;
+  color: var(--red) !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  border-bottom: 2px solid var(--border) !important;
+  position: relative !important;
+}
+
+h1.title::after {
+  content: '策';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 3rem;
+  color: var(--gold-light);
+  opacity: 0.35;
+  line-height: 1;
+  font-family: 'Noto Serif SC', serif;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  color: var(--red) !important;
+  margin-top: 2.5rem !important;
+  padding-left: 0.75rem !important;
+  border-left: 4px solid var(--gold) !important;
+}
+
+p {
+  margin-bottom: 1.25rem !important;
+  color: var(--text) !important;
+}
+
+/* Pull quotes / first paragraph */
+main.content > p:first-of-type {
+  font-size: 1.15rem !important;
+  color: var(--ink) !important;
+  font-style: italic !important;
+  border-left: 3px solid var(--red) !important;
+  padding-left: 1.25rem !important;
+  margin-left: -1.25rem !important;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem !important;
+}
+
+li {
+  margin-bottom: 0.4rem !important;
+  color: var(--text) !important;
+}
+
+/* ─── Images ────────────────────────────────────── */
+img.img-fluid {
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-md) !important;
+  max-width: 100% !important;
+  margin: 1.5rem auto !important;
+  display: block !important;
+  border: 1px solid var(--border) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+img.img-fluid:hover {
+  transform: scale(1.015) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* ─── Title Block ───────────────────────────────── */
+.quarto-title-block {
+  margin-bottom: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.quarto-title-meta {
+  font-family: var(--font-body) !important;
+  font-size: 0.82rem !important;
+  color: var(--text-muted) !important;
+  border-top: 1px solid var(--border) !important;
+  padding-top: 0.75rem !important;
+  margin-top: 0.75rem !important;
+}
+
+/* ─── Blockquotes ───────────────────────────────── */
+blockquote {
+  border-left: 4px solid var(--gold) !important;
+  background: var(--smoke) !important;
+  margin: 2rem 0 !important;
+  padding: 1rem 1.5rem !important;
+  border-radius: 0 var(--radius) var(--radius) 0 !important;
+  font-style: italic !important;
+  color: var(--ink) !important;
+  position: relative !important;
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -0.5rem;
+  left: 0.75rem;
+  font-size: 3rem;
+  color: var(--gold);
+  opacity: 0.4;
+  font-family: var(--font-display);
+  line-height: 1;
+}
+
+/* ─── Pagination ────────────────────────────────── */
+.page-navigation {
+  margin-top: 3rem !important;
+  padding-top: 1.5rem !important;
+  border-top: 2px solid var(--border) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.pagination-link {
+  font-family: var(--font-body) !important;
+  font-size: 0.88rem !important;
+  color: var(--red) !important;
+  text-decoration: none !important;
+  padding: 0.6rem 1rem !important;
+  border: 1px solid var(--red) !important;
+  border-radius: var(--radius) !important;
+  background: transparent !important;
+  transition: all var(--transition) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+}
+
+.pagination-link:hover {
+  background: var(--red) !important;
+  color: #fff !important;
+}
+
+/* ─── Section Number (intro title) ─────────────── */
+.chapter-number {
+  color: var(--gold) !important;
+  font-family: var(--font-display) !important;
+}
+
+/* ─── Search button & misc ──────────────────────── */
+.quarto-search-button {
+  color: var(--gold-light) !important;
+}
+
+.quarto-btn-toggle {
+  color: var(--gold-light) !important;
+}
+
+/* ─── Figure captions ───────────────────────────── */
+figcaption, .figure-caption {
+  font-family: var(--font-body) !important;
+  font-size: 0.82rem !important;
+  color: var(--text-muted) !important;
+  text-align: center !important;
+  font-style: italic !important;
+  margin-top: 0.5rem !important;
+}
+
+/* ─── Subtle decorative rule between paragraphs ─── */
+hr {
+  border: none !important;
+  height: 1px !important;
+  background: linear-gradient(to right, transparent, var(--border), transparent) !important;
+  margin: 2rem 0 !important;
+}
+
+/* ─── Intro page title special treatment ────────── */
+.fullcontent main .quarto-title h1 {
+  font-size: 2.8rem !important;
+}
+
+/* ─── Scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--smoke); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ─── TOC (margin sidebar) ──────────────────────── */
+#TOC {
+  font-family: var(--font-body) !important;
+  font-size: 0.83rem !important;
+  border-left: 3px solid var(--border) !important;
+  padding-left: 1rem !important;
+}
+
+#TOC a {
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+  transition: color var(--transition) !important;
+}
+
+#TOC a:hover, #TOC a.active {
+  color: var(--red) !important;
+}
+
+/* ─── Animations ────────────────────────────────── */
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+main.content {
+  animation: fadeSlideIn 0.45s ease both !important;
+}
+
+/* ─── Print ─────────────────────────────────────── */
+@media print {
+  body { background: white !important; }
+  .sidebar, #quarto-header, .page-navigation { display: none !important; }
+}

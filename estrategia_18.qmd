@@ -1,0 +1,34 @@
+# Estratégia 18 – Capturar o líder dos bandidos
+
+Quando o centro de gravidade orbitar fortemente no líder, e este for capturado, a organização toda irá desmoronar.
+![](./images/leader_bandits.png)
+
+Sendo o líder o pilar que une e guia o time, é natural que afetar este bagunce todo o restante da organização.
+
+Note o que acontece com todo time que está perdendo: troca o técnico. A troca do líder gera uma esperança de curto prazo na torcida, de que esta vez será diferente (mas dificilmente ocorre mudança assim, se não consertar os problemas estruturais de longo prazo).
+
+
+Em 2026, o governo americano utilizou esta estratégia para capturar Nicolas Maduro, ditador venezuelano. Se contou ou não com o apoio local, não se sabe, porém é fato que o vácuo deixado pelo líder ajuda na transição para um outro governo.
+
+![](./images/Maduro.jpeg)
+
+Sobre o líder, já dizia Sun Tzu: "O general é a estrela guia do povo, o senhor de sua segurança e de seu destino".
+
+Na Apple, por volta de 1985, Steve Jobs estava em pé de guerra com John Sculley.  O Macintosh não tinha dado tão certo assim. Sculley, pragmático, queria uma empresa mais saudável operacionalmente, deixando de lado a veia inovativa de Jobs.
+
+Sculley faria uma viagem à China, à trabalho.
+
+Jobs viu nisso uma oportunidade. Ele planejou convencer o conselho a remover Sculley enquanto ele estivesse fora do país. A ideia era reorganizar a Apple e retomar o controle da companhia.
+![](./images/jobs_sculley.jpeg)
+
+A estratégia não deu certo. O plano vazou, Sculley cancelou a viagem, e, por fim, foi Jobs quem deixou a empresa.
+
+Algumas décadas depois, no icônico discurso de formatura de Stanford em 2011, Steve Jobs disse, em relação à sua saída da Apple: 
+
+"Tenho certeza de que nada disso teria acontecido se eu não tivesse
+sido demitido da Apple. Foi um remédio horrível, mas eu entendo que o
+paciente precisava. Às vezes, a vida bate com um tijolo na sua cabeça.
+Não perca a fé. Estou convencido de que a única coisa que me permitiu
+seguir adiante foi o meu amor pelo que fazia. Você tem que descobrir o
+que você ama. Isso é verdadeiro tanto para o seu trabalho quanto para
+com as pessoas que você ama."

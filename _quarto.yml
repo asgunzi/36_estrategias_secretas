@@ -1,0 +1,89 @@
+project:
+  type: book
+  output-dir: docs
+
+website:
+  title: "36 Estratégias Secretas"
+  site-url: "https://asgunzi.github.io/36_estrategias_secretas/"
+
+book:
+  title: "As 36 Estratégias Secretas dos Chineses Antigos"
+  author: "Arnaldo Gunzi"
+  date: "26/05/2026"
+
+  chapters:
+    - index.qmd
+
+    - part: "01 a 06"
+      chapters:
+        - estrategias_vantajosas.qmd
+        - estrategia_01.qmd
+        - estrategia_02.qmd
+        - estrategia_03.qmd
+        - estrategia_04.qmd
+        - estrategia_05.qmd
+        - estrategia_06.qmd
+
+    - part: "07 a 12"
+      chapters:
+        - estrategias_oportunistas.qmd
+        - estrategia_07.qmd
+        - estrategia_08.qmd
+        - estrategia_09.qmd
+        - estrategia_10.qmd
+        - estrategia_11.qmd
+        - estrategia_12.qmd
+
+    - part: "13 a 18"
+      chapters:
+        - estrategias_ofensivas.qmd
+        - estrategia_13.qmd
+        - estrategia_14.qmd
+        - estrategia_15.qmd
+        - estrategia_16.qmd
+        - estrategia_17.qmd
+        - estrategia_18.qmd
+
+    - part: "19 a 24"
+      chapters:
+        - estrategias_confusao.qmd
+        - estrategia_19.qmd
+        - estrategia_20.qmd
+        - estrategia_21.qmd
+        - estrategia_22.qmd
+        - estrategia_23.qmd
+        - estrategia_24.qmd
+
+    - part: "25 a 30"
+      chapters:
+        - estrategias_dissimulacao.qmd
+        - estrategia_25.qmd
+        - estrategia_26.qmd
+        - estrategia_27.qmd
+        - estrategia_28.qmd
+        - estrategia_29.qmd
+        - estrategia_30.qmd
+
+    - part: "31 a 36"
+      chapters:
+        - estrategias_desesperadas.qmd
+        - estrategia_31.qmd
+        - estrategia_32.qmd
+        - estrategia_33.qmd
+        - estrategia_34.qmd
+        - estrategia_35.qmd
+        - estrategia_36.qmd
+
+    - conclusao.qmd
+    - sobre.qmd
+
+
+format:
+  html:
+    css: custom-theme.css
+    number-sections: false
+  pdf: default
+  epub: default
+
+
+

@@ -1,0 +1,5 @@
+# Estratégia 28 – Tirar a escada depois que o inimigo subir no telhado
+
+Utilizar iscas para atrair o inimigo para uma armadilha. Quando ele estiver subido no telhado, tirar a escada, deixando-o sem saída.
+
+

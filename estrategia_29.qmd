@@ -1,0 +1,9 @@
+# Estratégia 29 – Cobrir a árvore de flores
+
+Melhorar a imagem de algo, para passar uma impressão diferente da real. Popularmente, enfeitar a noiva para o casamento.
+
+![](./images/exhuberant_tree_with_lot_of_flowers.png)
+
+
+Um exemplo muito comum é o IPO (abertura de capital) de companhias em bolsa de valores. Os executivos, muito interessados em fazer a abertura de capital e embolsar uma pequena fortuna, fazem de tudo para que a imagem e as contas da empresa pareçam boas, muitas vezes cortando gastos de curto prazo e criando problemas de médio e longo prazo com isso.
+

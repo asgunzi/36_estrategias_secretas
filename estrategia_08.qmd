@@ -1,0 +1,17 @@
+# Estratégia 8 – Fuga secreta por Chen Can
+
+Atingir o inimigo pela retaguarda, onde ele estiver desprotegido, e de forma inesperada. 
+
+Esta estratégia deriva de uma história de Lui Bang, 200 a.C., que viria posteriormente a ser imperador da China. O exército de Liu Bang estava em retirada, e mandou destruir todas as pontes que acessavam o seu acampamento. Meses depois, ele ordenou que reconstruíssem as pontes. 
+
+O inimigo, desconfiado, passou a se preparar para um ataque iminente pela pontes. Mas, para surpresa do inimigo, Liu Bang utilizou a passagem secreta de Chen Can, contornando as montanhas por um longo caminho, para um ataque-surpresa.
+
+
+![](images/fuga.png)
+
+
+É uma estratégia de surpreender o oponente, através de algum atalho desconhecido por ele.
+
+No Xadrez, isto é bem comum. Um gambito cheio de armadilhas vai pegar o amador desconhecido.
+
+Em termos de um trabalho técnico, ter conhecimento adicional sobre como o processo funciona de verdade, ou quem é a pessoa correta a contatar para desenrolar um assunto, ou alguma técnica apurada de algoritmos é o equivalente a um atalho para chegar ao objetivo final.
