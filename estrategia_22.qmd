@@ -1,3 +1,8 @@
 # Estratégia 22 – Fechar as portas para pegar o ladrão
 
-Quando o inimigo é fraco, ele perde o espírito de luta ao se ver cercado como o ladrão preso na casa. Sun Tzu diz, quando a vantagem for de 10 para 1, cerque-o por todos os lados.
+Quando o inimigo é fraco, ele perde o espírito de luta ao se ver cercado como o ladrão preso na numa casa. 
+
+![](./images/prisioner.png)
+
+
+Sun Tzu diz, quando a vantagem for de 10 para 1, cerque-o por todos os lados.
