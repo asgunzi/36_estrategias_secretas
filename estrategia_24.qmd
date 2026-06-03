@@ -2,4 +2,6 @@
 
 Utilizar algum recurso de outrem, como uma passagem por dentro do território, para atacar o inimigo. Na estratégia 3, matar com uma faca emprestada, é o terceiro que faz a ação, agora na estratégia 24, sou eu que faço a ação, e o terceiro apenas empresta recursos.
 
+![](./images/narrow_path.png)
+
 Exemplo: vender o seu produto com a marca de outra companhia, para “pegar emprestado” o nome desta.
