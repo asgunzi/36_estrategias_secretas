@@ -2,4 +2,6 @@
 
 Utilizar iscas para atrair o inimigo para uma armadilha. Quando ele estiver subido no telhado, tirar a escada, deixando-o sem saída.
 
+![](./images/man_in_the_roof.png)
+
 
