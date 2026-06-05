@@ -4,13 +4,13 @@ project:
 
 website:
   title: "36 Estratégias Secretas"
-  site-url: "https://asgunzi.github.io/36_estrategias_secretas/"
   favicon: images/favicon_arc.png
+  site-url: "https://asgunzi.github.io/36_estrategias_secretas/"
 
 book:
   title: "As 36 Estratégias Secretas dos Chineses Antigos"
   author: "Arnaldo Gunzi"
-  date: "26/05/2026"
+  date: "05/06/2026"
 
   chapters:
     - index.qmd
