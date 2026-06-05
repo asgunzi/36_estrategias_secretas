@@ -5,6 +5,7 @@ project:
 website:
   title: "36 Estratégias Secretas"
   site-url: "https://asgunzi.github.io/36_estrategias_secretas/"
+  favicon: ./images/favicon_arc.png
 
 book:
   title: "As 36 Estratégias Secretas dos Chineses Antigos"
@@ -82,8 +83,6 @@ format:
   html:
     css: custom-theme.css
     number-sections: false
-  pdf: default
-  epub: default
 
 
 
