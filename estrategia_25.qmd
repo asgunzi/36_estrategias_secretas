@@ -2,6 +2,8 @@
 
 Alterar estruturas importantes, como vigas e pilares, por materiais de qualidade inferior, e com isso enfraquecer o inimigo.
 
+![](./images/falling_house.png)
+
 Exemplo: Uma vez comprei um carro, que tinha uma lataria muito bonita. Alguns meses depois, problemas começaram a acontecer. O carro ficava acelerado, por conta de uma pecinha que tinha quebrado. A vidro elétrico também quebrou. Depois, o para-brisa. Debaixo da aparência, peças inferiores.
 
 Depois de tal episódio, comprei um Toyota que nunca teve nenhum incidente. A partir daí, só comprei carros desta marca. Tenho a confiança de que todas as peças, por menores que sejam, têm um elevado padrão de qualidade.
@@ -18,5 +20,6 @@ Um exemplo do mundo corporativo é eliminar postos demais em funções técnicas
 
 Curioso que, frequentemente, os salários e compensações dos altos executivos só aumentam. Além disso, é comum a contratação de grandes consultorias, para trazer "as melhores práticas de mercado", comumente aumentando mais ainda a pressão sobre a base...
 
+Alguns gerentes só conseguem ver o dashboard final. O ETL e tudo o que teve que ser feito para garantir que a informação correta fosse mostrada ali é invisível, porém essencial para o número final estar correto.
 
-
+A recomendação aqui é fazer o contrário: dar valor às fundações invisíveis. Tenha vigas e pilares fortes. 
