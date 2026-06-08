@@ -4,3 +4,7 @@ Utilização conjunta, serial ou paralela, das estratégias descritas acima. Sab
 
 ![](./images/warrior_nunchaku.png)
 
+
+![](./images/ninja.png)
+
+

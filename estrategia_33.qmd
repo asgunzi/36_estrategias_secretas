@@ -3,4 +3,6 @@
 
 Utilizar o próprio espião do inimigo para disseminar informações falsas.
 
+![](./images/spy.png)
+
 Sun Tzu dedica um capítulo inteiro da Arte da Guerra para o conceito de espionagem. Aqui nas 36 estratégias, não é diferente, informação e contra-informação são a forma de saber o que está acontecendo e planejar ações.
