@@ -19,11 +19,20 @@ A Coreia do Norte faz bem o papel de fingir-se de louca e irresponsável (talvez
 
 O presidente americano Donald Trump também sabe jogar bem este jogo. Faz inúmeras ameaças, cumpre algumas, volta atrás em outras, de modo que nunca se sabe se ele está falando a verdade ou apenas tentando obter alguma vantagem em negociação.
 
-![](./images/Trump.jpeg)
+![](./images/Trump.png)
 
 É notoriamente sabido, na Teoria dos Jogos, que alguém imprevisível é pior de enfrentar do que alguém previsível. Se você tem um nome a honrar, uma posição a defender, o oponente vai saber disso e vai utilizar a sua inflexibilidade como poder de barganha. Já aquele que nada tem a perder, que tem fama de maluco, pode ir para qualquer lado.
 
 Eu, normalmente, sou uma pessoa ponderada e paciente. Porém, quando percebo que outra pessoa está folgando, revido à altura. Dificilmente a pessoa repete o mesmo comportamento.
 
+Para fechar, uma história do Mulá Nasrudin.
 
+## Quem é o idiota?
 
+Todos os dias, o Mulá Nasrudin era ridicularizado por um pessoal que morava na cidade. Eles sempre falavam para ele escolher entre duas moedas, uma maior e mais valiosa; outra pequena com menos valor. Nasrudin sempre escolhia a pequena, e era motivo de risadas por isso.
+
+![](./images/moedas.png)
+
+Um dia, um viajante chamou-o ao lado e disse: “Não seja bobo, da próxima vez, escolha a moeda grande”; ao qual, Nasrudin respondeu: “Mas se eu fizer isso, vou parar de receber moedas”.
+
+Às vezes é muito sábio parecer tolo.
